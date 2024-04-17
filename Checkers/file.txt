@@ -1,0 +1,175 @@
+﻿Date: 4/6/2024 8:01:42 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Date: 4/6/2024 8:06:51 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 10
+----
+Date: 4/6/2024 8:15:44 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 9
+----
+Cumulative Statistics:
+Total Red Wins: 3
+Total White Wins: 0
+Max Pieces Remaining: 12
+----
+Date: 4/6/2024 8:18:09 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 9
+----
+Cumulative Statistics:
+Total Red Wins: 4
+Total White Wins: 0
+Max Pieces Remaining: 12
+----
+Date: 4/7/2024 12:03:46 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 11
+----
+Cumulative Statistics:
+Total Red Wins: 5
+Total White Wins: 0
+Max Pieces Remaining: 12
+----
+Date: 4/7/2024 12:56:38 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 3
+----
+Cumulative Statistics:
+Total Red Wins: 6
+Total White Wins: 0
+Max Pieces Remaining: 12
+----
+Date: 4/8/2024 9:46:05 AM
+Red player wins: 0
+White player wins: 1
+Max pieces remaining for a winner: 8
+----
+Cumulative Statistics:
+Total Red Wins: 6
+Total White Wins: 1
+Max Pieces Remaining: 12
+----
+Date: 4/8/2024 10:22:33 AM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Cumulative Statistics:
+Total Red Wins: 7
+Total White Wins: 1
+Max Pieces Remaining: 12
+----
+Date: 4/8/2024 7:39:14 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 11
+----
+Cumulative Statistics:
+Total Red Wins: 8
+Total White Wins: 1
+Max Pieces Remaining: 12
+----
+Date: 4/9/2024 1:53:25 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Cumulative Statistics:
+Total Red Wins: 9
+Total White Wins: 1
+Max Pieces Remaining: 12
+----
+Date: 4/9/2024 7:07:46 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 6
+----
+Cumulative Statistics:
+Total Red Wins: 10
+Total White Wins: 1
+Max Pieces Remaining: 12
+----
+Date: 4/10/2024 2:51:10 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Cumulative Statistics:
+Total Red Wins: 11
+Total White Wins: 1
+Max Pieces Remaining: 12
+----
+Date: 4/11/2024 5:41:31 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Cumulative Statistics:
+Total Red Wins: 0
+Total White Wins: 0
+Max Pieces Remaining: 0
+----
+User: user1
+Date: 4/11/2024 5:47:09 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 9
+----
+Cumulative Statistics:
+Total Red Wins: 1
+Total White Wins: 0
+Max Pieces Remaining: 9
+----
+User: user1
+Date: 4/11/2024 6:21:36 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Cumulative Statistics:
+Total Red Wins: 2
+Total White Wins: 0
+Max Pieces Remaining: 12
+----
+User: user1
+Date: 4/15/2024 11:33:51 AM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Cumulative Statistics:
+Total Red Wins: 3
+Total White Wins: 0
+Max Pieces Remaining: 12
+----
+User: andreea
+Date: 4/17/2024 3:55:52 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Cumulative Statistics:
+Total Red Wins: 1
+Total White Wins: 0
+Max Pieces Remaining: 12
+----
+User: andreea_lavinia
+Date: 4/17/2024 6:33:49 PM
+Red player wins: 1
+White player wins: 0
+Max pieces remaining for a winner: 12
+----
+Cumulative Statistics:
+Total Red Wins: 1
+Total White Wins: 0
+Max Pieces Remaining: 12
+----

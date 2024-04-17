@@ -1,0 +1,65 @@
+﻿<Window x:Class="Checkers.Views.SignUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Checkers.Views"
+        xmlns:conv="clr-namespace:Checkers.Helpers"
+        xmlns:helpers="clr-namespace:Checkers.Helpers"
+        xmlns:vm="clr-namespace:Checkers.ViewModels"
+        mc:Ignorable="d"
+        Title="SignUpWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:SignUpViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <conv:StringToVisibilityConverter x:Key="StringToVisibilityConverter"/>
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="Foreground" Value="#FF333333"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,10"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Opacity="0.3" Color="White"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#FF555555"/>
+            <Setter Property="BorderBrush" Value="#FF555555"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Image Source="C:\Users\Andreea\Desktop\-Checkers-game-\Checkers\ForDesign\createAccount.webp" Stretch="UniformToFill"/>
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="200">
+            <StackPanel>
+                <TextBox Style="{StaticResource TextBoxStyle}" Text="{Binding TempUsername, UpdateSourceTrigger=PropertyChanged}" Width="194" />
+                <TextBox Style="{StaticResource TextBoxStyle}" Text="{Binding TempPassword, UpdateSourceTrigger=PropertyChanged}" Width="194" />
+                <Button Style="{StaticResource ButtonStyle}" Content="Save" Command="{Binding SaveCommand}" Width="182" >
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FFF5EEE1" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <Label Content="    Username&#xD;&#xA;" HorizontalAlignment="Left" Margin="198,136,0,0" VerticalAlignment="Top" Width="102" FontFamily="Arial Black" FontWeight="Bold" FontStyle="Italic" Foreground="#FFFFFBFB"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="215,193,0,0" VerticalAlignment="Top" Width="108" FontFamily="Arial Black" FontWeight="Bold" FontStyle="Italic" Foreground="#FFFFFBFB" RenderTransformOrigin="0.72,0.354"/>
+    </Grid>
+</Window>

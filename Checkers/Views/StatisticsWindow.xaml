@@ -1,0 +1,41 @@
+﻿<Window x:Class="Checkers.Views.StatisticsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Checkers.Views"
+        xmlns:vm="clr-namespace:Checkers.ViewModels"
+        mc:Ignorable="d"
+        Title="StatisticsWindow" Height="600" Width="800" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <vm:StatisticsViewModel x:Key="StatisticsViewModel"/>
+    </Window.Resources>
+
+    <Grid DataContext="{StaticResource StatisticsViewModel}">
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Andreea\Desktop\-Checkers-game-\Checkers\ForDesign\statistics2.jpeg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,89,0,0">
+            <TextBlock Text="{Binding CurrentUserName}" FontSize="24" FontWeight="Bold" Foreground="#FF1F1F1F" Margin="0,0,0,30" HorizontalAlignment="Center"/>
+
+            <TextBlock Text="Player's statistics" FontWeight="Bold" Foreground="#FF1F1F1F" FontStyle="Italic" FontSize="22" FontFamily="Segoe UI Variable Small" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <TextBlock Text="Number of wins: " FontWeight="Bold" Foreground="#FF1F1F1F" FontStyle="Italic"/>
+                <TextBlock Text="{Binding RedWins}" FontWeight="Bold" Foreground="DarkSlateGray"/>
+            </StackPanel>
+
+           
+           
+
+           
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <TextBlock Text="Max pieces remaining for the winner: " FontWeight="Bold" Foreground="#FF1F1F1F" FontStyle="Italic"/>
+                <TextBlock Text="{Binding MaxPiecesRemaining}" FontWeight="Bold" Foreground="DarkSlateGray"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
